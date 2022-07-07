@@ -31,10 +31,9 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-  var nonEvens = arrayOfNumbers.filter(number => number % 1 === 0);
-    var evens = arrayOfNumbers.filter(number => number % 2 === 0);
-    ans = evens + " " + nonEvens;
-    return ans;
+    var evens = arrayOfNumbers.filter(number => number % 2 == 1);
+    
+    return evens;
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
